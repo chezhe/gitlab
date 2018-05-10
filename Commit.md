@@ -36,3 +36,5 @@ $ git commit -m 'initial project version'
 ```
 
 如果没有额外参数`-m`，就会进入`vi`的界面编辑commit信息
+
+执行`git push`就会更新到远程分支。
