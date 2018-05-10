@@ -35,3 +35,4 @@ MM Commit.md
 $ git commit -m 'initial project version'
 ```
 
+如果没有额外参数`-m`，就会进入`vi`的界面编辑commit信息
