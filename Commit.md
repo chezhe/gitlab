@@ -54,3 +54,9 @@ mv README.md README
 git rm README.md
 git add README
 ```
+
+##### 撤消操作
+
+```
+git commit --amend
+```
