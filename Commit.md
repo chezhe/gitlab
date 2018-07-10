@@ -38,3 +38,19 @@ $ git commit -m 'initial project version'
 如果没有额外参数`-m`，就会进入`vi`的界面编辑commit信息
 
 执行`git push`就会更新到远程分支。
+
+当你想停止追踪一个文件时，执行如下命令：
+```
+git rm log/\*.log
+```
+
+如果想要重命名一个文件
+```
+git mv README.md README
+```
+相当于执行以下命令：
+```
+mv README.md README
+git rm README.md
+git add README
+```
