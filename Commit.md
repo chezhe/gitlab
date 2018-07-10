@@ -60,3 +60,7 @@ git add README
 ```
 git commit --amend
 ```
+
+```
+git reset 
+```
